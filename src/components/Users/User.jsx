@@ -14,6 +14,6 @@ export const User = ({id, email, first_name, last_name, avatar, onClickInvite, i
         </p>
       </div>
     </div>
-    <img onClick={() => onClickInvite(id)} className="action" src={`/assets/${isInvited ? 'user_list/minus.svg' : 'user_list/plus.svg'}`} alt="Action" />
+    <img onClick={() => onClickInvite(id)} className="action" src={`assets/${isInvited ? 'minus.svg' : 'plus.svg'}`} alt="Action" />
   </li>
 );
